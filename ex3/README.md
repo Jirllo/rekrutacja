@@ -1,4 +1,4 @@
-#Excercises 3
+# Excercise 3
 The button operate in two states open and closed therefore it is employed to generate digital signal. However during the button is pressed then generated signal is unspecified due to mechanical vibration of button conntancts. The signal is fast switched beetween two states and electronical system can interpret this likes multiple signal not a single signal. To avoid this is corporated several method and this actions are named "debouncing". 
 
 Software debouncing method is accomplished by constatly checking change of input signal. If the state has changed then the time starts counting. When the change has not occurred for a specified time (debouncing delay), the button state is in the final steady state and can proper read it's digital state. 
